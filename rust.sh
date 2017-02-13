@@ -2,4 +2,4 @@
 # Rust Setup
 #
 
-PATH=$PATH:$HOME/.cargo/bin
+PATH="$PATH:$HOME/.cargo/bin"

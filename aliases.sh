@@ -8,6 +8,8 @@
 #
 ###############################################################################
 
+alias ic="cd ~/icloud"
+
 # make copy and move verbose
 alias cp='cp -v'
 alias mv='mv -v'
@@ -40,4 +42,7 @@ alias setclip='xclip -selection c'
 alias getclip='xclip -selection c -o'
 
 # CLI Tools
-alias gitt='clear && git status'
+alias gitt='clear && git status || echo "No git repo!"'
+
+# Ruby Tools
+alias be='bundle exec'
