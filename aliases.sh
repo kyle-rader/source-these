@@ -9,6 +9,8 @@
 ###############################################################################
 
 alias ic="cd ~/icloud"
+alias gph="cd ~/projects/greatpuzzlehunt && nvm use meteor"
+alias tagdeploy='git tag "deploy_`date '+%Y_%m_%d-%H%M'`"'
 
 # make copy and move verbose
 alias cp='cp -v'
@@ -42,7 +44,7 @@ alias setclip='xclip -selection c'
 alias getclip='xclip -selection c -o'
 
 # CLI Tools
-alias gitt='clear && git status || echo "No git repo!"'
+alias gitt='clear && git status'
 
 # Ruby Tools
 alias be='bundle exec'
