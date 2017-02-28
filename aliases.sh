@@ -48,3 +48,4 @@ alias gitt='clear && git status'
 
 # Ruby Tools
 alias be='bundle exec'
+alias beg='spring stop && bundle exec guard'
