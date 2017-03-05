@@ -8,6 +8,10 @@
 #
 ###############################################################################
 
+# Git
+alias gap='git add -p'
+alias gcm='git commit -m '
+
 alias ic="cd ~/icloud"
 alias gph="cd ~/projects/greatpuzzlehunt && nvm use meteor"
 alias tagdeploy='git tag "deploy_`date '+%Y_%m_%d-%H%M'`"'
