@@ -9,8 +9,7 @@ gpip(){
 }
 
 # VitualEnv Wrapper
+export VIRTUALENVWRAPPER_PYTHON="$(which python3)"
 export WORKON_HOME=$HOME/.virtualenvs
 
 source /usr/local/bin/virtualenvwrapper.sh
-
-alias mkvenv='mkvirtualenv -p $(which python3)'

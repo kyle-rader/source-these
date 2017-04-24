@@ -9,7 +9,7 @@
 ###############################################################################
 
 # ActionSprout project starters
-alias start-fern='foreman start -f Procfile-development -m web=1,ember=1,worker=1,elasticsearch=0,memcached=1,redis=0'
+alias start-fern='foreman start -f Procfile-development -m web=1,ember=1,worker=1'
 alias start-pine='foreman start'
 alias start-juniper='ember server --proxy http://as-juniper.dev --port 3005'
 alias start-willow='PORT=1337 npm start'

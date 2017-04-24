@@ -10,7 +10,9 @@
 
 # Git
 alias gap='git add -p'
+alias gp='git pull --prune'
 alias gcm='git commit -m '
+alias gdmb='git-delete-merged-branches'
 
 alias ic="cd ~/icloud"
 alias gph="cd ~/projects/greatpuzzlehunt && nvm use meteor"
@@ -53,3 +55,4 @@ alias gitt='clear && git status'
 # Ruby Tools
 alias be='bundle exec'
 alias beg='spring stop && bundle exec guard'
+alias cscluster='ssh -p 922 cluster.cs.wwu.edu'
